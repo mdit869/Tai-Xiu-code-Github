@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+  
+</head>
+
+<body>
+ 
+ <div id="container">
+  <h1 class="diceh1">Dice Roller</h1>
+  <div class="header1">
+      <input type="number" min="1000" id="input" value="1000">
+      <span class="span">
+        <button onclick="incrementValue()">+100</button>
+        <button onclick="incrementValue2()">+200</button>
+      </span>
+    </span>
+  </div>
+  <div class="header2">
+    <button onclick="fullname1()">tai</button>
+    <button onclick="fullname2()">xiu</button>
+     <button onclick="reset()" id="demo">reset</button>
+    
+  </div>
+    <div class="header">
+      <h2 id="dice-h2">WIN: 0 LOSS: 0</h2>
+      <label id="dice"></label>
+      <label id="dice-retzu"></label>
+      <label id="dice-img"></label>
+    </div>
+  
+ </div>
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>

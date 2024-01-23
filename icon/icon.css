@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Poppins:ital,wght@0,300;0,800;0,900;1,300;1,600;1,700;1,800;1,900&family=Shizuru&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container{
+    width: 550px;
+    height: 320px;  
+    background: linear-gradient( 90deg, rgb(224, 62, 132), rgb(209, 143, 154));
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+#container h1{
+    color: rgb(61, 178, 214);
+    font-family: 'Lobster', sans-serif;
+    font-size: 100px;
+}
+
+#span{
+    text-align: center;
+    width: 400px;
+    font-size: 90px;
+    font-family: 'Shizuru', system-ui;
+    color: rgb(12, 82, 148);
+}
+
+.clock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clock i{
+    font-size: 90px;
+    margin-top: 20px;
+    color: rgb(134, 65, 198);
+}

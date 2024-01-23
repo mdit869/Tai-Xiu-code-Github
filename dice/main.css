@@ -1,0 +1,104 @@
+body{
+  font-family: monospace;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+#container{
+  width: 400px;
+  height: 500px;
+  background-color: white  ;
+  border: 5px solid red;
+  border-radius:25px;
+} 
+
+#input{
+    text-align: center;
+}
+
+.header{
+  margin-bottom: -100px;
+}
+
+.header1{
+    display: grid;
+    width: 150px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.header1 input{
+  border: 2px solid red;
+  border-radius: 15px;
+  outline: none;
+  padding: 7px 15px;
+  font-size: 20px;
+  color: brown;
+}
+
+.span{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.diceh1{
+  text-align: center;
+  font-size: 32px;
+  color: rgb(198, 33, 107);
+}
+
+button{
+    border-radius: 15px;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid palevioletred;
+    color: rgb(200, 29, 41);
+    padding: 7px 13px;
+}
+
+.header2{
+  padding-top: 20px;
+  margin-left: 88px;
+}
+
+.header2 button{
+  background: rgb(32, 225, 100);
+  padding: 13px 20px;
+  border-radius: 50px;
+}
+ #demo{
+  background-color: burlywood;
+}
+
+#dice-h2{
+  text-align: center;
+  color: crimson;
+  font-size: 28px;
+}
+
+#dice{
+  font-size: 33px;
+  color: palevioletred;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#dice-retzu{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(123, 0, 255);
+  margin-top: 10px;
+}
+
+#dice-img{
+  text-align: center;
+  margin-top: 24px;
+}
